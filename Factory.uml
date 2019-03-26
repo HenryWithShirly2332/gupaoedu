@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.ch.gupao.factory.abstractfactory.abstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="-314.5" y="397.5">com.ch.gupao.factory.factorymethod.PythonCourseFactory</node>
+    <node x="-76.50000000000011" y="397.5">com.ch.gupao.factory.factorymethod.JavaCourseFactory</node>
+    <node x="-27.776217532467683" y="37.49999999999997">com.ch.gupao.factory.ICourse</node>
+    <node x="-394.5" y="214.49999999999997">com.ch.gupao.factory.PythonCourse</node>
+    <node x="356.294733044733" y="214.49999999999997">com.ch.gupao.factory.JavaCourse</node>
+    <node x="142.94595057720062" y="397.5">com.ch.gupao.factory.simplefactory.SimpleFactoryTest</node>
+    <node x="1113.1874999999998" y="227.49999999999997">com.ch.gupao.factory.abstractfactory.JavaNote</node>
+    <node x="-186.0" y="214.49999999999997">com.ch.gupao.factory.factorymethod.ICourseFactory</node>
+    <node x="-313.5540494227994" y="534.5">com.ch.gupao.factory.factorymethod.FactoryMethodTest</node>
+    <node x="828.3147727272726" y="50.49999999999997">com.ch.gupao.factory.abstractfactory.IVideo</node>
+    <node x="102.294733044733" y="214.49999999999997">com.ch.gupao.factory.simplefactory.CourseFactory</node>
+    <node x="959.1874999999998" y="227.49999999999997">com.ch.gupao.factory.abstractfactory.JavaVideo</node>
+    <node x="689.1875" y="188.49999999999997">com.ch.gupao.factory.abstractfactory.ICourseFactory</node>
+    <node x="472.53628246753226" y="371.5">com.ch.gupao.factory.abstractfactory.PythonFactory</node>
+    <node x="831.6049603174604" y="371.5">com.ch.gupao.factory.abstractfactory.JavaCourseFactory</node>
+    <node x="1059.8147727272724" y="50.49999999999997">com.ch.gupao.factory.abstractfactory.INote</node>
+    <node x="766.6049603174604" y="534.5">com.ch.gupao.factory.abstractfactory.abstractFactoryTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaVideo" target="com.ch.gupao.factory.abstractfactory.IVideo">
+      <point x="0.0" y="-17.5" />
+      <point x="1026.1874999999998" y="138.49999999999997" />
+      <point x="922.8147727272726" y="138.49999999999997" />
+      <point x="40.5" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.PythonCourseFactory" target="com.ch.gupao.factory.PythonCourse">
+      <point x="-72.33333333333326" y="-30.5" />
+      <point x="-278.33333333333326" y="351.5" />
+      <point x="-305.5" y="351.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaCourseFactory" target="com.ch.gupao.factory.abstractfactory.JavaNote">
+      <point x="71.14285714285711" y="-56.5" />
+      <point x="1027.2478174603175" y="341.5" />
+      <point x="1177.1874999999998" y="341.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.FactoryMethodTest" target="com.ch.gupao.factory.ICourse">
+      <point x="-72.66666666666674" y="-30.5" />
+      <point x="-277.2207160894661" y="509.5" />
+      <point x="-405.0" y="509.5" />
+      <point x="-405.0" y="128.49999999999997" />
+      <point x="-19.68530844155856" y="128.49999999999997" />
+      <point x="-80.90909090909088" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.simplefactory.CourseFactory" target="com.ch.gupao.factory.ICourse">
+      <point x="0.0" y="-30.5" />
+      <point x="219.294733044733" y="168.49999999999997" />
+      <point x="77.40560064935056" y="168.49999999999997" />
+      <point x="16.181818181818244" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.ICourseFactory" target="com.ch.gupao.factory.ICourse">
+      <point x="-83.0" y="-56.5" />
+      <point x="730.6875" y="118.49999999999997" />
+      <point x="142.13287337662337" y="118.49999999999997" />
+      <point x="80.90909090909099" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaCourseFactory" target="com.ch.gupao.factory.JavaCourse">
+      <point x="-106.71428571428578" y="-56.5" />
+      <point x="849.3906746031746" y="331.5" />
+      <point x="504.62806637806636" y="331.5" />
+      <point x="59.33333333333337" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaCourseFactory" target="com.ch.gupao.factory.abstractfactory.INote">
+      <point x="106.71428571428578" y="-56.5" />
+      <point x="1062.8192460317462" y="351.5" />
+      <point x="1251.6874999999998" y="351.5" />
+      <point x="1251.6874999999998" y="158.49999999999997" />
+      <point x="1149.0647727272724" y="158.49999999999997" />
+      <point x="38.25" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.JavaCourseFactory" target="com.ch.gupao.factory.ICourse">
+      <point x="0.0" y="-30.5" />
+      <point x="22.499999999999886" y="168.49999999999997" />
+      <point x="45.04196428571419" y="168.49999999999997" />
+      <point x="-16.18181818181813" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.ICourseFactory" target="com.ch.gupao.factory.ICourse">
+      <point x="0.0" y="-30.5" />
+      <point x="-87.0" y="158.49999999999997" />
+      <point x="28.860146103895943" y="158.49999999999997" />
+      <point x="-32.363636363636374" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.ICourseFactory" target="com.ch.gupao.factory.abstractfactory.IVideo">
+      <point x="0.0" y="-56.5" />
+      <point x="813.6875" y="148.49999999999997" />
+      <point x="868.8147727272726" y="148.49999999999997" />
+      <point x="-13.5" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.PythonFactory" target="com.ch.gupao.factory.abstractfactory.INote">
+      <point x="31.125" y="-56.5" />
+      <point x="628.1612824675324" y="351.5" />
+      <point x="589.5647727272725" y="351.5" />
+      <point x="589.5647727272725" y="158.49999999999997" />
+      <point x="1072.5647727272724" y="158.49999999999997" />
+      <point x="-38.25" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.JavaCourseFactory" target="com.ch.gupao.factory.JavaCourse">
+      <point x="66.0" y="-30.5" />
+      <point x="88.49999999999989" y="341.5" />
+      <point x="385.9613997113996" y="341.5" />
+      <point x="-59.33333333333337" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.PythonFactory" target="com.ch.gupao.factory.abstractfactory.ICourseFactory">
+      <point x="93.375" y="-56.5" />
+      <point x="690.4112824675321" y="351.5" />
+      <point x="730.6875" y="351.5" />
+      <point x="-83.0" y="56.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.PythonCourseFactory" target="com.ch.gupao.factory.ICourse">
+      <point x="0.0" y="-30.5" />
+      <point x="-206.0" y="148.49999999999997" />
+      <point x="12.678327922077813" y="148.49999999999997" />
+      <point x="-48.545454545454504" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.abstractFactoryTest" target="com.ch.gupao.factory.abstractfactory.JavaCourseFactory">
+      <point x="54.5" y="-30.5" />
+      <point x="930.1049603174604" y="509.5" />
+      <point x="956.1049603174604" y="509.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.JavaCourseFactory" target="com.ch.gupao.factory.factorymethod.ICourseFactory">
+      <point x="-66.0" y="-30.5" />
+      <point x="-43.500000000000114" y="351.5" />
+      <point x="-21.0" y="351.5" />
+      <point x="66.0" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.PythonFactory" target="com.ch.gupao.factory.abstractfactory.IVideo">
+      <point x="-31.125" y="-56.5" />
+      <point x="565.9112824675323" y="351.5" />
+      <point x="578.5647727272725" y="351.5" />
+      <point x="578.5647727272725" y="138.49999999999997" />
+      <point x="841.8147727272726" y="138.49999999999997" />
+      <point x="-40.5" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaCourseFactory" target="com.ch.gupao.factory.abstractfactory.ICourseFactory">
+      <point x="-35.57142857142861" y="-56.5" />
+      <point x="920.5335317460317" y="351.5" />
+      <point x="896.6875" y="351.5" />
+      <point x="83.0" y="56.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.JavaCourse" target="com.ch.gupao.factory.ICourse">
+      <point x="0.0" y="-30.5" />
+      <point x="445.294733044733" y="158.49999999999997" />
+      <point x="93.5874188311688" y="158.49999999999997" />
+      <point x="32.36363636363649" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaCourseFactory" target="com.ch.gupao.factory.ICourse">
+      <point x="-71.14285714285722" y="-56.5" />
+      <point x="884.9621031746033" y="321.5" />
+      <point x="678.6875" y="321.5" />
+      <point x="678.6875" y="128.49999999999997" />
+      <point x="125.95105519480512" y="128.49999999999997" />
+      <point x="64.72727272727275" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.PythonCourseFactory" target="com.ch.gupao.factory.factorymethod.ICourseFactory">
+      <point x="72.33333333333326" y="-30.5" />
+      <point x="-133.66666666666674" y="351.5" />
+      <point x="-153.0" y="351.5" />
+      <point x="-66.0" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.ICourseFactory" target="com.ch.gupao.factory.abstractfactory.INote">
+      <point x="83.0" y="-56.5" />
+      <point x="896.6875" y="168.49999999999997" />
+      <point x="1098.0647727272724" y="168.49999999999997" />
+      <point x="-12.75" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.simplefactory.SimpleFactoryTest" target="com.ch.gupao.factory.simplefactory.CourseFactory">
+      <point x="27.249999999999886" y="-30.5" />
+      <point x="279.1959505772005" y="331.5" />
+      <point x="277.794733044733" y="331.5" />
+      <point x="58.5" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.PythonCourse" target="com.ch.gupao.factory.ICourse">
+      <point x="0.0" y="-30.5" />
+      <point x="-305.5" y="138.49999999999997" />
+      <point x="-3.503490259740431" y="138.49999999999997" />
+      <point x="-64.72727272727275" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.PythonFactory" target="com.ch.gupao.factory.ICourse">
+      <point x="-93.375" y="-56.5" />
+      <point x="503.66128246753226" y="341.5" />
+      <point x="567.5647727272725" y="341.5" />
+      <point x="567.5647727272725" y="148.49999999999997" />
+      <point x="109.76923701298688" y="148.49999999999997" />
+      <point x="48.545454545454504" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaCourseFactory" target="com.ch.gupao.factory.abstractfactory.JavaVideo">
+      <point x="35.571428571428555" y="-56.5" />
+      <point x="991.676388888889" y="331.5" />
+      <point x="1026.1874999999998" y="331.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaCourseFactory" target="com.ch.gupao.factory.abstractfactory.IVideo">
+      <point x="0.0" y="-56.5" />
+      <point x="956.1049603174604" y="351.5" />
+      <point x="948.6875" y="351.5" />
+      <point x="948.6875" y="148.49999999999997" />
+      <point x="895.8147727272726" y="148.49999999999997" />
+      <point x="13.5" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.FactoryMethodTest" target="com.ch.gupao.factory.factorymethod.PythonCourseFactory">
+      <point x="0.0" y="-30.5" />
+      <point x="-204.55404942279938" y="509.5" />
+      <point x="-206.0" y="509.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.abstractFactoryTest" target="com.ch.gupao.factory.abstractfactory.ICourseFactory">
+      <point x="-54.5" y="-30.5" />
+      <point x="821.1049603174604" y="509.5" />
+      <point x="753.0987824675321" y="509.5" />
+      <point x="753.0987824675321" y="351.5" />
+      <point x="813.6875" y="351.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.simplefactory.SimpleFactoryTest" target="com.ch.gupao.factory.JavaCourse">
+      <point x="81.74999999999989" y="-30.5" />
+      <point x="333.6959505772005" y="351.5" />
+      <point x="445.294733044733" y="351.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.abstractfactory.JavaNote" target="com.ch.gupao.factory.abstractfactory.INote">
+      <point x="0.0" y="-17.5" />
+      <point x="1177.1874999999998" y="168.49999999999997" />
+      <point x="1123.5647727272724" y="168.49999999999997" />
+      <point x="12.75" y="17.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.simplefactory.SimpleFactoryTest" target="com.ch.gupao.factory.ICourse">
+      <point x="-81.75000000000011" y="-30.5" />
+      <point x="170.1959505772005" y="331.5" />
+      <point x="61.22378246753232" y="331.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.ch.gupao.factory.factorymethod.FactoryMethodTest" target="com.ch.gupao.factory.factorymethod.ICourseFactory">
+      <point x="72.66666666666674" y="-30.5" />
+      <point x="-131.88738275613264" y="509.5" />
+      <point x="-87.00000000000006" y="509.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="403.24999999999955" y="404.57142857142856" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
